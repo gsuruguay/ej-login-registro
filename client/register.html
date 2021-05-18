@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register login">
+            <h2>Register</h2>
+            <div id="container"></div>
+            <p>Ingrese nombre de nuevo usuario y una contraseña</p>
+            <form action="/register" method="post">
+                <div class="inputs">
+                    <input type="text" name="usuario" id="input-usuario" placeholder="Usuario" required required minlength="2" maxlength="15">
+                </div>
+                <div class="inputs">
+                    <input type="password" name="password" id="input-password" placeholder="Contraseña" required minlength="5" maxlength="15">
+                </div>
+                <div class="inputs">
+                    <input type="password" name="passwordRepeat" id="input-passwordRepeat" placeholder="Repetir contraseña" required minlength="5" maxlength="15">
+                </div>
+                <input type="submit" value="Registrarse" id="btn-submit" class="entra">
+            </form>
+
+    <script src="script/alertErrores.js"></script>
+</body>
+</html>

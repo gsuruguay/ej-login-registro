@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-login-registro",
+  "version": "1.0.0",
+  "description": "Ejercicio de login y registro de usuario",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsuruguay/ej-login-registro.git"
+  },
+  "author": "Guillermo Suruguay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsuruguay/ej-login-registro/issues"
+  },
+  "homepage": "https://github.com/gsuruguay/ej-login-registro#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
