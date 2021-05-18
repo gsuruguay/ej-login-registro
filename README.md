@@ -2,7 +2,7 @@
 
 ## 1. Pantalla de login (formulario + link para registrarse)
   * Primera pantalla al ingresar a pagina principal "/"
-#### Contiene 3 inputs
+#### Contiene 2 inputs
   * Usuario
   * Password
   * Si no tiene usuario deberá registrarse en link "Registrarse"
